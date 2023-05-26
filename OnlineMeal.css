@@ -109,9 +109,11 @@
     justify-content: center;
     align-items: center;
 }
+.client-item{
+    margin:10px;
+}
 .clients-item{
     padding: 34px;
-    margin: 10px;
 }
 #client-section::before{
     content: "";
