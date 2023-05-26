@@ -111,6 +111,7 @@
 }
 .clients-item{
     padding: 34px;
+    margin: 10px;
 }
 #client-section::before{
     content: "";
