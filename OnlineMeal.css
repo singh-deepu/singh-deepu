@@ -73,7 +73,7 @@
 #home::before {
     content: "";
     position: absolute;
-    background: url(img/.jpg) no-repeat center center/cover;
+    background: url(img/1.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -188,6 +188,15 @@ footer{
 
 #services .box {
     font-family: 'Bree Serif', serif;
+	border: 1px solid #c5c3c3;
+    border-radius: 0;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+	margin-left:65px;
+	
 }
 
 .box{
@@ -195,7 +204,14 @@ footer{
 }
 
 .box i.fa{
+	
 	color: #e74c3c;
 	font-size: 70px;
-	margin-bottom: 15px;
-	
+	margin: 20px;
+}
+#service .box{
+	margin: 10px;
+	padding: 0px;
+}
+
+}
