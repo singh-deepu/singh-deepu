@@ -73,7 +73,7 @@
 #home::before {
     content: "";
     position: absolute;
-    background: url(img/FaugetPizza.jpg) no-repeat center center/cover;
+    background: url(img/1.jpg) no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -92,12 +92,6 @@
     font-family: 'Bree Serif', serif;
 
 }
-
-#servies {}
-
-#servies {}
-
-#servies {}
 
 /* Clients Section */
 #client-section {
@@ -159,7 +153,7 @@ footer{
 
 /* Services Section */
 #services {
-    margin: 34;
+    margin: 54px;
     display: flex;
 }
 
@@ -195,3 +189,13 @@ footer{
 #services .box {
     font-family: 'Bree Serif', serif;
 }
+
+.box{
+	text-align: center;
+}
+
+.box i.fa{
+	color: #e74c3c;
+	font-size: 70px;
+	margin-bottom: 15px;
+	
